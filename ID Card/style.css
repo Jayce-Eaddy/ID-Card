@@ -1,0 +1,63 @@
+body {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: #BAE1D3;
+
+    color: darkblue;
+
+    font-weight: bolder;
+
+    text-align: center;
+}
+
+img {
+
+    width: 90px;
+
+    height: 90px;
+
+    float: left;
+
+}
+
+#idCard {
+
+    font-family: Verdana;
+
+    background-color: lightblue;
+
+    border: 2.5px dotted darkblue;
+
+    color: darkslategrey;
+
+    border-radius: 20px;
+
+    height: 14em;
+
+    width: 25em;
+
+    margin: auto;
+
+}
+
+.nameFont {
+
+    text-align: center;
+
+    font-size: 20px;
+
+}
+
+.button {
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }

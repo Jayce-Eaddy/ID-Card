@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>ID Card Project</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Let's Create an ID Card!</h1>
+
+    <p id="info">
+        <label>First Name:</label><br>
+        <input id="firstName"><br>
+        <label>Last Name:</label> <br>
+        <input id="lastName"><br>
+        <label>Age:</label> <br>
+        <input id="age"><br>
+        <label>Phone Number:</label> <br>
+        <input id="phoneNumber"><br>
+        <label>Address:</label> <br>
+        <input id="yourAddress"><br>
+    <div></div>
+    <button onclick="idCard()" class="button">Get ID Card!</button>
+    <br>
+    <br>
+    <br>
+    <div id="idCard">
+
+
+        <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+
+        <p class="nameFont" id="postFullName"></p> <br>
+
+        <div id=special>
+
+            <p id="postAge"></p>
+
+            <p id="postPhoneNumber"></p>
+
+            <p id="postAddress"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
